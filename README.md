@@ -18,3 +18,24 @@ git clone https://github.com/gigaByteSized/arduino-hydroponics.git
 `Sketch > Include library > Add .ZIP library...`
 
 5. You are now good to go!
+
+## Additional Setup
+
+### Logging with PuTTY
+
+1. Install `putty` using
+```
+sudo apt-get install putty putty-tools
+```
+
+2. Check serial line using Arduino IDE.
+
+```
+/dev/tty/USB0.
+``` 
+
+3. In PuTTY client, set connection type to 'Serial'. Make sure 'Serial line' is set to correct 'Serial line' and 'speed' is set to '9600'.
+
+4. Go to Serial > Logging (In left "Categories"). Set session logging to 'Printable output'
+
+5. You are now good to go!
